@@ -12,7 +12,7 @@ const StackNavigator = () => {
             screenOptions={{headerShown: false}}
         >
             <Stack.Screen name="Home" component={TabNavigator}/>
-            <Stack.Screen name="Tela de Posts" component={PostScreen}/>
+            <Stack.Screen name="PostScreen" component={PostScreen}/>
         </Stack.Navigator>
     )
 }
